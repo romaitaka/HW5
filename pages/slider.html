@@ -22,34 +22,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <main class="main">
-        <div class="blur">
-            <header class="header">
-                <div class="container header__container">
-                    <img src="./img/logo-wayup.svg" alt="Logo" class="logo">
-                    <h1 class="header__text">
-                        Way Up. Home work № 5: Java Script
-                    </h1>
-                </div>
-            </header>
-            <nav class="nav container">
-                <ul class="menu">
-                    <li class="menu__item">
-                        Табы
-                    </li>
-                    <li class="menu__item">
-                        Модальное окно
-                    </li>
-                    <li class="menu__item">
-                        Слайдер
-                    </li>
-                </ul>
-            </nav>
+<body class="body">
+    <a href="../index.html" class="home-button">
+        <img src="../img/btn_home_dark.svg" alt="Home">
+    </a>
+    <div class="container">
+        <a href="#" id="arrow-left">
+            <img src="../img/arrow_left.svg" alt="arrow left">
+        </a>
+        <div class="slider-wrapper">
+            <div class="slide active">
+                <img src="../img/slider__img1.jpg" alt="The Boys wallpaper 1" class="slide__img">
+            </div>
+            <div class="slide">
+                <img src="../img/slider__img2.jpg" alt="The Boys wallpaper 2" class="slide__img">
+            </div>
+            <div class="slide">
+                <img src="../img/slider__img3.jpg" alt="The Boys wallpaper 3" class="slide__img">
+            </div>
+            <div class="dots-wrapper">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
         </div>
-
-    </main>
+        <a href="#" id="arrow-right">
+            <img src="../img/arrow_right.svg" alt="arrow right">
+        </a>
+    </div>
+    <script src="../js/slider.js"></script>
 </body>
-<script src="./js/main.js"></script>
 
 </html>
